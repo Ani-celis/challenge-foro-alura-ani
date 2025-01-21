@@ -1,5 +1,4 @@
-# challenge-foro-alura-ani
-## Challenge_Foro_Alura
+
 # Foro Alura - API REST
 
 ## 📜 Descripción del Proyecto
