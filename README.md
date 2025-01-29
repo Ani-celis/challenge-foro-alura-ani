@@ -84,6 +84,32 @@ El proyecto sigue una arquitectura MVC (Modelo-Vista-Controlador):
 
 ---
 ## 🌟 Funcionamiento:
+1) Ejectutamos nuestra API, desde Intelli:
+   ![image](https://github.com/user-attachments/assets/d66cffed-5f66-4a64-bfe4-8e4eba6952f2)
+
+3) Iniciamos sesion con nuestro usuario desde Insomnia, estos estas conectados a traves del puerto 8080.
+ ![image](https://github.com/user-attachments/assets/c922f847-a546-4149-b88e-6deb01a79eb1)
+
+4)Se puede interectuar desde Insommia y los cambios se veran reflejados en nuestra base de datos, por ejemplo registrar un usuario:
+![image](https://github.com/user-attachments/assets/c84ef017-95c7-4663-a83c-693695b62a44)
+En este caso debemos ingresar el token del usuario que tiene los privilegios, para realizar la operacón.
+
+5) Visualizar que se añadio en BD.
+   ![image](https://github.com/user-attachments/assets/1122665a-f159-4a6e-b4fa-cdf4f3d87cab)
+
+## Desde insomnia se pueden probar todas las solicitudes creadas. 
+1) Añadir un Topico:
+   ![image](https://github.com/user-attachments/assets/c36d9ec0-70b3-4b75-979a-ba35d17f4d28)
+
+2)Lo veo en mi BD.
+![image](https://github.com/user-attachments/assets/853b4b82-bb8a-4709-93e6-33221e2d36c8)
+
+3) Responder a ese Topico:
+   ![image](https://github.com/user-attachments/assets/92fb9140-e5c4-4724-96e4-e43282b99983)
+4) Revisar respuestas en BD:
+   ![image](https://github.com/user-attachments/assets/b3c68049-0a23-4929-b7d4-6ec56bbcd5cf)
+
+5) Una vez este resuelta se puede cambiar el estatus.
 
 
 # challenge-foro-alura-ani
